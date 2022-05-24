@@ -1,0 +1,12 @@
+header {
+    background-color: rgb(27, 33, 128);
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
