@@ -10,3 +10,15 @@ header {
 ul {
     list-style: none;
 }
+
+.uv-green {
+    background-color: green;
+}
+
+.uv-yellow {
+    background-color: rgb(241, 241, 22);
+}
+
+.uv-red {
+    background-color: red; 
+}
