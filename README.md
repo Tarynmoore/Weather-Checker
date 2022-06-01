@@ -1,5 +1,8 @@
 Weather Checker 
 
+https://github.com/Tarynmoore/Weather-Checker
+https://tarynmoore.github.io/Weather-Checker/
+
 Want to check the weather for your next trip? Or your local weather. 
 This application will help you check the weather! 
 After you type in the city you want to look up the weather will display. 
