@@ -62,14 +62,16 @@ var currentWeather = function(chosenCity) {
         if (fiveDayForecast[0].uvi >= 8) {
             singleUvEl.className = "uv-red"
         }
-        
-        
+
         // Gets the five day forecast and displays it 
         // Uses the API to get the information for the forecast    
         var temp1El = document.querySelector("#temp1");
         var wind1El = document.querySelector('#wind1');
         var humid1El = document.querySelector("#humid1");
         var date1El = document.querySelector("#date1");
+        var icon1El = document.querySelector("#icon1");
+        // var displayIcon = icon1El.textContent = fiveDayForecast[1].weather[0].icon 
+        // var icon1Link = "http://openweathermap.org/img/wn/" + displayIcon + "10d@2x.png"
         date1El.textContent = (date.getMonth() + 1) + '/' + (date.getDate() + 1) + '/' + date.getFullYear(); 
         temp1El.textContent = "Temperature: " + fiveDayForecast[1].temp.day 
         wind1El.textContent = "Wind: " + fiveDayForecast[1].wind_speed + " mph"

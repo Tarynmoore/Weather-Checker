@@ -9,6 +9,9 @@ header {
 
 ul {
     list-style: none;
+    font-size: small;
+    padding-left: 3px;
+    margin: 3px;
 }
 
 .uv-green {
